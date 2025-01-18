@@ -1,0 +1,122 @@
+body {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 100!important;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    background-color: rgba(22,23,34,1);
+    color: rgba(255,225,255,1);
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    background-color: rgba(45,43,54,1);
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgba(255,175,255,1);
+}
+
+label {
+    font-weight: 100;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+input[type="number"],
+input[type="file"],
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255,225,255,1);
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"], button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #45a049;
+}
+
+.flashes {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.flashes li {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-left: 6px solid #f5c6cb;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+#preview-section{
+	margin-top: 2rem;
+	border-top: 1px solid rgba(255,225,255,.3);
+}
+
+#preview-wrapper{
+	background:rgba(0,0,0,1);
+}
+
+#button-wrapper{
+	text-align:center;
+}
+
+#preview-image {
+	display: block;
+	max-width: 100%;
+	width: auto;
+	max-height: 1980px;
+	height: auto;
+	border-radius: 4px;
+	margin: 10px auto;
+	position:relative;
+}
+
+#progress-indicator {
+    text-align: center;
+    margin-top: 20px;
+}
+
+progress {
+    width: 80%;
+    height: 20px;
+    margin-top: 1rem;
+}
+
+.spinner img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.sub-params {
+    margin-left: 25px;
+    margin-top: 5px;
+}
