@@ -2,7 +2,7 @@
 
 This project is a Flask-based application that processes images and videos to add noise effects such as pixelation, glitch effects, distortions, and more. It also supports real-time video streaming and video re-encoding using FFmpeg.
 
-![App Preview](./noise-tool_ss01.png)
+![App Preview](./glitchcraft-ss01.png)
 
 ## Features
 - Apply various noise effects to images and videos.
