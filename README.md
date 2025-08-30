@@ -47,7 +47,7 @@ This project is a Flask-based application that processes images and videos to ad
    ```
 3. Run the application:
    ```bash
-   python app.python
+   python app.py
    ```
    
 ### Usage
@@ -67,3 +67,4 @@ This project is a Flask-based application that processes images and videos to ad
 
 ### License
 This project is licensed under the MIT License. See `LICENSE` for more details.
+
